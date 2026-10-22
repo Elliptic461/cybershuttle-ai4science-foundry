@@ -142,7 +142,7 @@ need to track in git.
 
 ```bash
 ssh <user>@login-ice.pace.gatech.edu
-git clone https://github.com/Vishram1123/cybershuttle-ai4science-foundry.git
+git clone -b kyin68/hyenadna-inference-reproduction https://github.com/Elliptic461/cybershuttle-ai4science-foundry.git
 cd cybershuttle-ai4science-foundry/registry/models/biology/hyenadna
 sbatch slurm/infer_hyenadna_makerspace.sbatch
 # check status:
